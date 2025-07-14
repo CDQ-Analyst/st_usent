@@ -38,7 +38,7 @@ ls
 ```
 
 ```bash
-docker build -t sulaymanaziz/stapp1:latest . 
+docker build -t sulaymanaziz/usent:latest . 
 ```
 
 ```bash
@@ -46,7 +46,7 @@ docker images -a
 ```
 
 ```bash
-docker run -d -p 8501:8501 sulaymanaziz/stapp1 
+docker run -d -p 8501:8501 sulaymanaziz/usent
 ```
 ### then got to EC2 instance copy  Public IPv4 address  paste in the web :8501 to run the streamlit app
 
@@ -82,25 +82,25 @@ docker login
 
 
 ```bash
-docker push sulaymanaziz/stapp1:latest 
+docker push sulaymanaziz/usent:latest 
 ```
 
 ```bash
-docker rmi sulaymanaziz/stapp1:latest
+docker rmi sulaymanaziz/usent:latest
 ```
 
 ```bash
-docker pull sulaymanaziz/stapp1
+docker pull sulaymanaziz/usent
 ```
 ```bash
-docker run -d -p 8501:8501 sulaymanaziz/stapp1 
+docker run -d -p 8501:8501 sulaymanaziz/usent
 ```
 
 ### if you want to change app.py then nano app.py   do your change then save In short: Ctrl+O, Enter, Ctrl+X
 ### then re build docker image:
 nano app.py 
 ### do your change then save In short: Ctrl+O, Enter, Ctrl+X
-docker build -t sulaymanaziz/stapp1:latest .
+docker build -t sulaymanaziz/usent:latest .
 
 docker ps
 
