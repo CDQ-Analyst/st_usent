@@ -7,20 +7,27 @@ Note: Do the port mapping to this port:- 8501
 
 ```bash
 sudo apt-get update -y
-
+```
+```bash
 sudo apt-get upgrade
+```
 
 #Install Docker
-
+```bash
 curl -fsSL https://get.docker.com -o get-docker.sh
-
+```
+```bash
 sudo sh get-docker.sh
-
+```
+```bash
 sudo usermod -aG docker ubuntu
+```
 
 newgrp docker
-
+```
+```bash
 docker --version
+```
 
 
 ```
