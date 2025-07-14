@@ -23,23 +23,30 @@ sudo sh get-docker.sh
 sudo usermod -aG docker ubuntu
 ```
 
+```bash
 newgrp docker
 ```
+
 ```bash
 docker --version
 ```
 
 
-```
+
 
 ```bash
 git clone "your-project"
-
+```
+```bash
 ls
+```
 
+```bash
 cd [name of your instance]/   # cd st-deploy-demo/
-
+```
+```bash
 ls
+```
 
 
 ```
