@@ -18,4 +18,4 @@ COPY . /app
 
 RUN pip3 install -r requirements.txt
 
-ENTRYPOINT ["streamlit", "run", "USENT_25-710.py", "--server.port=8501", "--server.address=0.0.0.0"]
+ENTRYPOINT ["streamlit", "pandas", "openpyxl",   "run", "USENT_25-710.py", "--server.port=8501", "--server.address=0.0.0.0"]
