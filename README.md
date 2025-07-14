@@ -42,7 +42,7 @@ ls
 ```
 
 ```bash
-cd [name of your instance]/   # cd st-deploy-demo/
+cd [name of your instance]/   # cd st_usent/
 ```
 ```bash
 ls
